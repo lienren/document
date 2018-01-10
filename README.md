@@ -82,7 +82,7 @@ from every day!
 
 > TensorFlow 中文社区
 
-## Design
+## Design
 
 [tencent cdc](http://cdc.tencent.com/)
 
