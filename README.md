@@ -1,2 +1,4 @@
 # document
-this is docs
+record every bit!
+
+hello every day!
