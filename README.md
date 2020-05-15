@@ -87,6 +87,9 @@ from every day!
 [健超的Blog](https://github.com/JChehe/blog)
 > 🌈 原创&翻译 🌈
 
+[Hadoop大数据平台安全问题和解决方案的综述](http://www.c-s-a.org.cn/html/2018/1/6169.html#outline_anchor_20)
+> Hadoop安全方面的参考文章
+
 ## Design
 
 [tencent cdc](http://cdc.tencent.com/)
