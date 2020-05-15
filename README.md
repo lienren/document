@@ -32,6 +32,9 @@ from every day!
 [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 > JavaScript Algorithms and Data Structures
 
+[“等一下，我碰！”——常见的2D碰撞检测](https://github.com/JChehe/blog/issues/8)
+> 碰撞检测
+
 ## Documents
 
 [Electron Document](https://electronjs.org/docs)
@@ -63,11 +66,17 @@ from every day!
 [meituan.com](https://tech.meituan.com/)
 > 美团技术团队
 
+[有赞技术团队](https://tech.youzan.com/)
+> 有赞API网关实践
+
 [凹凸实验室](https://aotu.io/)
 > O2面向多终端技术体系，致力于构建沉淀与分享包括但不限于交互、页面制作技巧、前端开发、原生APP开发等方面的专业知识及案例。
 
 [D3.js](https://d3js.org/)
 > D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
+
+[Notes of Phaser 3](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/)
+> Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.
 
 [JavaScript Standards Reference Guide](http://javascript.ruanyifeng.com/)
 > JavaScript 标准参考教程（alpha） -- JavaScript 标准参考教程（alpha）
@@ -103,6 +112,9 @@ from every day!
 
 [iconfont](http://www.iconfont.cn/)
 > Iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具
+
+[700+ CSS Icons](https://css.gg/)
+> Open-source CSS, SVG and Figma UI Icons Available in SVG Sprite, styled-components, NPM & API
 
 [Iconfinder](https://www.iconfinder.com/)
 > Iconfinder is the leading search engine and market place for vector icons in SVG, PNG, CSH and AI format..
