@@ -55,6 +55,9 @@ from every day!
 [Hadoop集群部署及维护](https://github.com/lienren/document/blob/master/HadoopClusterBuild.md)
 > 从0到1的记录
 
+[Java 设计模式](https://juejin.im/post/5bc96afff265da0aa94a4493#heading-15)
+> 讲Java设计模式最简单清晰的文章
+
 ## Website
 
 [imweb.io](http://imweb.io/)
