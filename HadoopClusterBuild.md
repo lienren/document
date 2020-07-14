@@ -82,3 +82,6 @@ http://192.168.56.11:8080/
    >    - yum install mysql
    >    - yum list installed | grep mariadb
    >    - yum install mariadb-server
+> 6. 安装Spark thrift server：
+   >    - iptables -I OUTPUT -p tcp --dport 10016 -j ACCEPT
+   >    - iptables -I INPUT -p tcp --dport 10016 -j ACCEPT
