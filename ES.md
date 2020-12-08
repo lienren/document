@@ -9,6 +9,15 @@
 [ik分词](https://github.com/medcl/elasticsearch-analysis-ik)
 [ES7.8破解](https://www.cco.xyz/archives/811)
 
+### 常用命令
+```
+# 启动
+systemctl start elasticsearch.service
+
+# 停止
+systemctl stop elasticsearch.service
+```
+
 ### 新建文档结构
 **PUT** http://ip:9200/users/_doc/1
 ```json
