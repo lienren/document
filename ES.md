@@ -16,6 +16,9 @@ systemctl start elasticsearch.service
 
 # 停止
 systemctl stop elasticsearch.service
+
+# 设置系统自动启动
+systemctl enable elasticsearch.service
 ```
 
 ### 新建文档结构
