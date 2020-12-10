@@ -91,6 +91,18 @@ systemctl enable elasticsearch.service
 }
 ```
 
+### 精确查询
+**GET** http://10.10.151.52:9200/users/_search
+```json
+{
+    "query": {
+        "terms": {
+            "user_name.keyword": "李xxxx"
+        }
+    }
+}
+```
+
 ### 分词分析
 **GET** http://ip:9200/_analyze?pretty
 ```json
@@ -102,3 +114,50 @@ systemctl enable elasticsearch.service
 
 ### 删除表
 **DELETE** http://ip:9200/users
+
+### 复杂的查询
+```json
+{
+    "sort": [
+        {
+            "create_time.keyword": "desc"
+        }
+    ],
+    "query": {
+        "bool": {
+            "filter": {
+                "range": {
+                    "create_time.keyword": {
+                        "gte": "2020-01-01",
+                        "lte": "2020-12-31",
+                        "format": "yyyy-MM-dd"
+                    }
+                }
+            },
+            "must": {
+                "bool": {
+                    "should": [
+                        {
+                            "term": {
+                                "user_name.keyword": "汇川技术"
+                            }
+                        },
+                        {
+                            "term": {
+                                "user_name.keyword": "长城汽车"
+                            }
+                        }
+                    ]
+                }
+            },
+            "should": [
+                {
+                    "match": {
+                        "user_remark": "2020年汇川技术和长城汽车所有事件"
+                    }
+                }
+            ]
+        }
+    }
+}
+```
