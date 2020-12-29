@@ -22,7 +22,7 @@ systemctl enable elasticsearch.service
 ```
 
 ### 新建文档结构
-**PUT** http://ip:9200/users/_doc/1
+**PUT** http://ip:9200/users/_doc/?pretty
 ```json
 {
     "mappings": {
@@ -55,7 +55,7 @@ systemctl enable elasticsearch.service
 ```
 
 ### 新建数据
-**POST** http://ip:9200/users/_doc/1
+**POST** http://ip:9200/users/_doc/?pretty
 ```json
 {
   "user_name":"XXXXX",
